@@ -1,11 +1,6 @@
 import {
   Controller,
   Get,
-  Post,
-  Delete,
-  Param,
-  Query,
-  Body,
 } from '@nestjs/common';
 import { ProductService } from './product.service';
 import { Iproduct } from './product.interface';
