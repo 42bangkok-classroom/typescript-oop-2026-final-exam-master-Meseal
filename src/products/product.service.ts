@@ -5,7 +5,7 @@ import * as path from 'path';
 
 @Injectable()
 export class ProductService {
-  private readonly filePath = path.join(process.cwd(), 'data', 'users.json');
+  private readonly filePath = path.join(process.cwd(), 'data', 'products.json');
 
   private readDatabase(): Iproduct[] {
     try {
