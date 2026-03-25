@@ -7,13 +7,13 @@ export class AppController {
 
   @Get()
   getHello() {
-    return  {
-      "success": true,
-      "data": {
-        service : "purchase-api",
-        version : "1.0.0",
+    return {
+      success: true,
+      data: {
+        service: 'purchase-api',
+        version: '1.0.0',
       },
-      message : this.appService.getHello()
-    }
+      message: this.appService.getHello(),
+    };
   }
 }
